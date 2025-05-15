@@ -26,6 +26,13 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
   - **Redis:** Used for caching and session management.
   - **Docker:** Containerization tool for consistent development and deployment environments.
   - **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
+
+## Database Design
+  - **Users**
+  - **Properties**
+  - **Bookings**
+  - **Reviews**
+  - **Payments**
     
 ## 🛠️ Feature Breakdown
   1. **API Documentation**

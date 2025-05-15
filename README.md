@@ -90,4 +90,30 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
     - `GET /reviews/{review_id}/` - Retrieve a specific review
     - `PUT /reviews/{review_id}/` - Update a specific review
     - `DELETE /reviews/{review_id}/` - Delete a specific review
+      
+## API Security
+  - **Authentication**
+    - Enforce multi-factor authentication (MFA) for user logins.
+    - Use secure token-based mechanisms (e.g., JWT, OAuth 2.0).
+    - **Why it's crucial**: Prevents unauthorized access and identity spoofing.
+  - **Authorization**
+    - Implement role-based access control (RBAC).
+    - Enforce least privilege principles for all users and services.
+    - **Why it's crucial**: Ensures users can only access data and features they’re permitted to, reducing risk of privilege escalation.
+  - **Rate Limiting**
+    - Throttle API requests per IP/user/session.
+    - Use exponential backoff on repeated failures.
+    - **Why it's crucial**: Mitigates brute-force attacks and abuse of system resources.
+   
+## CI/CD Pipeline
+  - **Speed**: Accelerates development cycles with faster, reliable deployments.
+  - **Quality**: Ensures code is tested, validated, and consistent across environments.
+  - **Reliability**: Reduces deployment errors through automation and rollback mechanisms.
+  - **Scalability**: Supports larger teams and complex systems with standardized workflows.
+  - **Security**: Enables automated security checks (SAST, DAST) and compliance enforcement.
+
+  - **Tools That Can Be Used**
+    - **GitHub Actions** – Native CI/CD automation for GitHub-hosted repos.
+    - **Docker** – Containerizes applications for consistent environments.
+
 
